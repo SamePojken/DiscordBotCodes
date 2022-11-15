@@ -115,4 +115,4 @@ async def reroll(ctx, channel: discord.TextChannel, id_ : int):
     reroll_announcement.add_field(name = f'🥳 New Winner:', value = f'{winner.mention}', inline = False)
     await channel.send(embed = reroll_announcement)
 
-client.run('MTA0MDUzNDIzNzE4ODcyMjc2OA.G2lfri.ph-PIPyls-9Sq5_FkpDN95ykozBYb-mjFIxXCM')
+client.run('TOKEN')
